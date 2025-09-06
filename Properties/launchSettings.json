@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "onyx-app (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "onyx-app (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
