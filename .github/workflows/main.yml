@@ -22,7 +22,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
 
@@ -51,7 +51,7 @@ jobs:
 
     # Upload the app
     - name: Upload app
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Upload app
         path: ${{ env.Solution_Name }}\\bin
